@@ -1,0 +1,54 @@
+@model MvcDemo.Models.ContaDeLuz
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ContaDeLuz</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DataDeLeitura)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataDeLeitura)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumLeitura)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumLeitura)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.KwGasto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.KwGasto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ValorPagar)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ValorPagar)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DataDoPagamento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataDoPagamento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MediaDeConsumo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MediaDeConsumo)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>

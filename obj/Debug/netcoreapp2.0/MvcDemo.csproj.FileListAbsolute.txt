@@ -1,0 +1,10 @@
+/Users/lucasfogaca/lpc/MvcDemo/bin/Debug/netcoreapp2.0/MvcDemo.deps.json
+/Users/lucasfogaca/lpc/MvcDemo/bin/Debug/netcoreapp2.0/MvcDemo.runtimeconfig.json
+/Users/lucasfogaca/lpc/MvcDemo/bin/Debug/netcoreapp2.0/MvcDemo.runtimeconfig.dev.json
+/Users/lucasfogaca/lpc/MvcDemo/bin/Debug/netcoreapp2.0/MvcDemo.dll
+/Users/lucasfogaca/lpc/MvcDemo/bin/Debug/netcoreapp2.0/MvcDemo.pdb
+/Users/lucasfogaca/lpc/MvcDemo/obj/Debug/netcoreapp2.0/MvcDemo.csproj.CoreCompileInputs.cache
+/Users/lucasfogaca/lpc/MvcDemo/obj/Debug/netcoreapp2.0/MvcDemo.AssemblyInfoInputs.cache
+/Users/lucasfogaca/lpc/MvcDemo/obj/Debug/netcoreapp2.0/MvcDemo.AssemblyInfo.cs
+/Users/lucasfogaca/lpc/MvcDemo/obj/Debug/netcoreapp2.0/MvcDemo.dll
+/Users/lucasfogaca/lpc/MvcDemo/obj/Debug/netcoreapp2.0/MvcDemo.pdb

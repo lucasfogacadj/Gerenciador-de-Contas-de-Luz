@@ -1,0 +1,57 @@
+@model MvcDemo.Models.ContaDeLuz
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Tem certeza que deseja excluir essa conta?</h3>
+<div>
+    <h4>ContaDeLuz</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DataDeLeitura)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataDeLeitura)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumLeitura)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumLeitura)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.KwGasto)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.KwGasto)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ValorPagar)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ValorPagar)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DataDoPagamento)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataDoPagamento)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MediaDeConsumo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MediaDeConsumo)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Voltar</a>
+    </form>
+</div>
